@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="title desc">
+  <title id="title">Silent Relation Torus</title>
+  <desc id="desc">A centered, front-facing segmented torus crossed by one cobalt relation arc.</desc>
+
+  <rect width="32" height="32" rx="6" fill="#EFEBDF"/>
+
+  <!-- Front-facing modular torus -->
+  <g fill="none" stroke-width="7.5" stroke-linecap="butt">
+    <circle cx="16" cy="16" r="9" stroke="#161512"/>
+    <circle cx="16" cy="16" r="9" pathLength="100" stroke="#89867F"
+            stroke-dasharray="13 87" stroke-dashoffset="0"/>
+    <circle cx="16" cy="16" r="9" pathLength="100" stroke="#D2CEC3"
+            stroke-dasharray="11 89" stroke-dashoffset="-17"/>
+    <circle cx="16" cy="16" r="9" pathLength="100" stroke="#89867F"
+            stroke-dasharray="14 86" stroke-dashoffset="-34"/>
+    <circle cx="16" cy="16" r="9" pathLength="100" stroke="#EFEBDF"
+            stroke-dasharray="10 90" stroke-dashoffset="-53"/>
+    <circle cx="16" cy="16" r="9" pathLength="100" stroke="#89867F"
+            stroke-dasharray="13 87" stroke-dashoffset="-68"/>
+    <circle cx="16" cy="16" r="9" pathLength="100" stroke="#D2CEC3"
+            stroke-dasharray="9 91" stroke-dashoffset="-86"/>
+  </g>
+
+  <!-- Crisp logo boundaries -->
+  <circle cx="16" cy="16" r="12.75" fill="none" stroke="#161512" stroke-width=".55"/>
+  <circle cx="16" cy="16" r="5.25" fill="#EFEBDF" stroke="#77746E" stroke-width=".55"/>
+
+  <!-- One relationship signal reduced to a precise central point -->
+  <circle cx="16" cy="16" r="1.65" fill="#2B43A1"/>
+</svg>
